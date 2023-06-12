@@ -1,0 +1,20 @@
+{
+    "name": "shivraj-ib/sns-component",
+    "description": "Component to integrate AWS SNS with PHP APPs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Infobeans Dev Team",
+            "homepage": "https://github.com/shivraj-ib"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "shivrajIb\\snsComponent\\": "src/"
+        }
+    }
+}
